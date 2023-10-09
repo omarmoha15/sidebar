@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ICONS -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Sidebar</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar active">
+        <div class="menu-btn">
+          <i class="ph-blod oh-caret-left"></i>
+        </div>
+        <div class="head">
+          <div class="user-img">
+            <img src="user.jpg" alt="" />
+          </div>
+          <div class="user-details">
+            <p class="title">عمر محمد</p>
+            <p class="title">مبرمج ،اجهات</p>
+          </div>
+        </div>
+        <div class="nav">
+          <div class="menu">
+            <p class="title">main</p>
+            <ul>
+              <li class="active">
+                <a href="#">
+                  <i class="icon ph-blod ph-house-simple"></i>
+                  <span class="text">معلوماتي الشخصيه</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon ph-blod ph-house-user"></i>
+                  <span class="text">انتداباتي </span>
+                  <i class="arrow ph-blod pa-caret-down"></i>
+                </a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#">
+                      <span class="text">انتداباتي</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="text">  عرض انتداباتي</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="active">
+                <a href="#">
+                  <i class="icon ph-blod ph-house-simple"></i>
+                  <span class="text">اجازاتي</span>
+                </a>
+              </li>
+              <li class="active">
+                <a href="#">
+                  <i class="icon ph-blod ph-house-simple"></i>
+                  <span class="text">التقيم الوظيفي</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon ph-blod ph-house-user"></i>
+                  <span class="text">الوثائق الرسمية </span>
+                  <i class="arrow ph-blod pa-caret-down"></i>
+                </a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#">
+                      <span class="text">تعريف الراتب "عربي"</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <span class="text">  تعريف الراتب "انجليزي"</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="menu">
+            <p class="title">الاعدادات</p>
+            <ul>
+              <li class="active">
+                <a href="#">
+                  <i class="icon ph-blod ph-house-simple"></i>
+                  <span class="text">الاعدادات </span>
+                </a>
+              </li>
+           
+            </ul>
+          </div>
+        </div>
+        <div class="menu">
+          <p class="title">الحساب</p>
+          <ul>
+            <li class="active">
+              <a href="#">
+                <i class="icon ph-blod ph-house-simple"></i>
+                <span class="text">مساعده </span>
+              </a>
+            </li>
+            <li class="active">
+              <a href="#">
+                <i class="icon ph-blod ph-house-simple"></i>
+                <span class="text">تسجيل الخروج </span>
+              </a>
+            </li>      
+              
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"
+      integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
